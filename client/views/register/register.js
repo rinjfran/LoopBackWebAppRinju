@@ -8,7 +8,7 @@ app.controller('regController', function ($rootScope, $scope, $state, $ionicLoad
 			"FIRSTNAME": user.firstname,
 			"LASTNAME": user.lastname,
 			"EMAILID": user.email,
-			"PASWORD": user.password,
+			"PASSWORD": user.password,
 			"id": 123
 		}
 		PROFILES.create(reqbody)
