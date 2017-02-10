@@ -1,7 +1,7 @@
 
 /* JavaScript content from js/app.js in folder common */
 
-var app=angular.module('App', ['ionic']);
+var app=angular.module('App', ['ionic','lbServices']);
 app.config(function($stateProvider, $urlRouterProvider) {
 $stateProvider
     .state('reg', {
